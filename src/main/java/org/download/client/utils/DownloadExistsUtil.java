@@ -11,6 +11,14 @@ public class DownloadExistsUtil {
         return false;
     }
 
+    public static boolean isAlreadyDownloaded(FeedItem feedItem, String downloadUrl) {
+        return false;
+    }
+
+    public static boolean isDownloadFinished(FeedItem feedItem, String downloadUrl) {
+        return false;
+    }
+
     public static boolean isDownloadFinished(FeedItem feedItem, String downloadUrl, String downloadFolder) {
         return false;
     }
